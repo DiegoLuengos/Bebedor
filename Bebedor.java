@@ -11,7 +11,7 @@ public class Bebedor
     //Almacena el limite de alcohol que soporta esa persona.
     private float limite;
     //Almacena la masa corporal de la persona.
-    private int masaCorporal;
+    private float masaCorporal;
 
     /**
      * Constructor de objectos de la clase Bebedor.
@@ -23,7 +23,7 @@ public class Bebedor
         this.limite = limite;
         this.masaCorporal = masaCorporal;
         if (masaCorporal < 0){
-            System.out.println("ERROR: una persona no puede tener masa corporal no puede ser negativa");
+            System.out.println("ERROR: una persona no puede tener masa corporal negativa");
         }
     }
     
@@ -57,7 +57,7 @@ public class Bebedor
     public void beberCubata(Cubata copa)
     {
         if ((nivelDeAlcohol <= limite)) {
-             nivelDeAlcohol = nivelDeAlcohol + copa.getAlcohol() - (masaCorporal - 20);
+             nivelDeAlcohol = nivelDeAlcohol + copa.getAlcohol() * (20f/masaCorporal);
         }
         else {
              System.out.println("Nope, esta persona ya está en TODO LO ALTO =D");
