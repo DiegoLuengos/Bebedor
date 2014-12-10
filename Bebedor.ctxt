@@ -1,20 +1,20 @@
 #BlueJ class context
-comment0.params=nombre\ limite
-comment0.target=Bebedor(java.lang.String,\ int)
+comment0.params=nombre\ limite\ masaCorporal
+comment0.target=Bebedor(java.lang.String,\ float,\ int)
 comment0.text=\r\n\ Constructor\ de\ objectos\ de\ la\ clase\ Bebedor.\r\n
 comment1.params=
 comment1.target=java.lang.String\ getNombrePersona()
 comment1.text=\r\n\ Devuelve\ el\ nombre\ de\ la\ persona.\r\n
 comment2.params=
-comment2.target=int\ getNivelDeAlcohol()
+comment2.target=float\ getNivelDeAlcohol()
 comment2.text=\r\n\ Devuelve\ la\ cantidad\ de\ alcohol\ que\ tiene\ ese\ persona\ en\ la\ sangre.\r\n
 comment3.params=
-comment3.target=int\ getLimite()
+comment3.target=float\ getLimite()
 comment3.text=\r\n\ Devuelve\ el\ l\u00EDmite\ de\ alcohol\ que\ soporta\ esa\ persona.\r\n
 comment4.params=copa
 comment4.target=void\ beberCubata(Cubata)
 comment4.text=\r\n\ Hace\ que\ la\ persona\ beba\ un\ cubata.\r\n
 comment5.params=pregunta
 comment5.target=void\ preguntar(java.lang.String)
-comment5.text=\r\n\ Pregunta\ a\ la\ persona\ si\ quiere\ beber\ m\u00E1s\ alcohol\r\n
+comment5.text=\r\n\ Pregunta\ a\ la\ persona\ si\ quiere\ beber\ m\u00E1s\ alcohol.\r\n
 numComments=6

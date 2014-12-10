@@ -7,12 +7,12 @@ public class Cubata
     //Almacena el nombre de la copa.
     private String nombreCubata;
     //Almacena la cantidad de alcohol que tiene ese cubata.
-    private int cantidadDeAlcohol;
+    private float cantidadDeAlcohol;
 
     /**
      * Constructor de objetos de la clase cubata
      */
-    public Cubata(String nombreCubata, int cantidadDeAlcohol)
+    public Cubata(String nombreCubata, float cantidadDeAlcohol)
     {
         this.nombreCubata = nombreCubata;
         this.cantidadDeAlcohol = cantidadDeAlcohol;
@@ -29,7 +29,7 @@ public class Cubata
     /**
      * Devuelve la cantidad de alcohol que tiene ese cubata.
      */
-    public int getAlcohol()
+    public float getAlcohol()
     {
         return cantidadDeAlcohol;
     }
